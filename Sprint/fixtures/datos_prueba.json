@@ -1,0 +1,118 @@
+[
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "username": "responsable1",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "is_staff": false,
+        "is_superuser": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 2,
+      "fields": {
+        "username": "scrum_master1",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@example.com",
+        "is_staff": true,
+        "is_superuser": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 3,
+      "fields": {
+        "username": "developer1",
+        "first_name": "Alice",
+        "last_name": "Jones",
+        "email": "alice.jones@example.com",
+        "is_staff": false,
+        "is_superuser": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 4,
+      "fields": {
+        "username": "developer2",
+        "first_name": "Bob",
+        "last_name": "Brown",
+        "email": "bob.brown@example.com",
+        "is_staff": false,
+        "is_superuser": false
+      }
+    },
+    {
+      "model": "scrum.sprint",
+      "pk": 1,
+      "fields": {
+        "nombre": "Sprint 1",
+        "objetivo": "Completar la primera funcionalidad",
+        "fecha_inicio": "2024-10-01",
+        "fecha_fin": "2024-10-15",
+        "velocidad": 30,
+        "scrum_master": 2,
+        "equipo_desarrollo": [3, 4],
+        "fecha_creacion": "2024-10-01T00:00:00Z",
+        "fecha_actualizacion": "2024-10-01T00:00:00Z"
+      }
+    },
+    {
+      "model": "scrum.epica",
+      "pk": 1,
+      "fields": {
+        "nombre": "Épica 1",
+        "descripcion": "Primera funcionalidad del proyecto",
+        "criterios_aceptacion": "Todos los casos de uso implementados",
+        "estado": "POR_HACER",
+        "responsable": 1,
+        "esfuerzo_estimado_total": 40,
+        "fecha_inicio": "2024-10-01",
+        "fecha_fin": "2024-11-01",
+        "progreso": 0.0,
+        "dependencias": []
+      }
+    },
+    {
+      "model": "scrum.tarea",
+      "pk": 1,
+      "fields": {
+        "titulo": "Tarea 1",
+        "descripcion": "Implementar la funcionalidad de inicio de sesión",
+        "criterios_aceptacion": "El usuario puede iniciar sesión correctamente",
+        "prioridad": 1,
+        "estado": "EN_PROGRESO",
+        "esfuerzo_estimado": 5,
+        "responsable": 3,
+        "sprint_asignado": 1,
+        "fecha_creacion": "2024-10-01T00:00:00Z",
+        "fecha_actualizacion": "2024-10-05T00:00:00Z",
+        "dependencias": [],
+        "bloqueadores": ""
+      }
+    },
+    {
+      "model": "scrum.tarea",
+      "pk": 2,
+      "fields": {
+        "titulo": "Tarea 2",
+        "descripcion": "Implementar la funcionalidad de registro de usuarios",
+        "criterios_aceptacion": "El usuario puede registrarse correctamente",
+        "prioridad": 2,
+        "estado": "POR_HACER",
+        "esfuerzo_estimado": 3,
+        "responsable": 4,
+        "sprint_asignado": 1,
+        "fecha_creacion": "2024-10-01T00:00:00Z",
+        "fecha_actualizacion": "2024-10-01T00:00:00Z",
+        "dependencias": [1],
+        "bloqueadores": ""
+      }
+    }
+  ]
+  
