@@ -29,7 +29,7 @@ Esta es una aplicación de gestión de proyectos SCRUM, que permite la administr
 1. **Clona el repositorio:**
 
 
-   git clone https://github.com/tu_usuario/Sprint.git
+   git clone [https://github.com/tu_usuario/Sprint.git](https://github.com/NikkyChin/Scrum-manager)
 
 
 2. **Navega al directorio del proyecto:**
