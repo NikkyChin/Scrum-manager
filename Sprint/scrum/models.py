@@ -29,7 +29,6 @@ class Tarea(models.Model):
         constraints = [
             models.CheckConstraint(check=models.Q(prioridad__gte=0), name='prioridad_no_negativa'),
             models.CheckConstraint(check=models.Q(esfuerzo_estimado__gte=0), name='esfuerzo_estimado_no_negativo'),
-            models.CheckConstraint(check=models.Q(estado__in=[POR_HACER, EN_PROGRESO, COMPLETADA]), name='estado_valido_tarea'),
         ]
 
 class Epica(models.Model):
@@ -59,7 +58,6 @@ class Epica(models.Model):
         constraints = [
             models.CheckConstraint(check=models.Q(esfuerzo_estimado_total__gte=0), name='esfuerzo_total_no_negativo'),
             models.CheckConstraint(check=models.Q(progreso__gte=0, progreso__lte=1), name='progreso_valido'),
-            models.CheckConstraint(check=models.Q(estado__in=[POR_HACER, EN_PROGRESO, COMPLETADA]), name='estado_valido_epica'),
             models.CheckConstraint(check=models.Q(fecha_fin__gte=models.F('fecha_inicio')), name='fecha_fin_posterior_epica'),
         ]
 
