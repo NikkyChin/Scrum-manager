@@ -19,5 +19,4 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),            # Ruta para el panel de administración
-    path('scrum/', include('scrum.urls')),      # Incluye las URLs de la aplicación 'scrum'
 ]
