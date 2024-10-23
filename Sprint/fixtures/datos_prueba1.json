@@ -165,6 +165,36 @@
         }
     },
     {
+        "model": "scrum.sprint",
+        "pk": 4,
+        "fields": {
+            "nombre": "Sprint 4",
+            "objetivo": "Completar la segunda funcionalidad",
+            "fecha_inicio": "2024-10-16",
+            "fecha_fin": "2024-10-31",
+            "velocidad": 30,
+            "scrum_master": 2,
+            "equipo_desarrollo": [3, 4, 5],
+            "fecha_creacion": "2024-10-16T00:00:00Z",
+            "fecha_actualizacion": "2024-10-16T00:00:00Z"
+        }
+    },
+    {
+        "model": "scrum.sprint",
+        "pk": 5,
+        "fields": {
+            "nombre": "Sprint 5",
+            "objetivo": "Completar la funcionalidad de exportación de usuarios",
+            "fecha_inicio": "2024-10-31",
+            "fecha_fin": "2024-11-15",
+            "velocidad": 30,
+            "scrum_master": 2,
+            "equipo_desarrollo": [4, 5, 6],
+            "fecha_creacion": "2024-10-31T00:00:00Z",
+            "fecha_actualizacion": "2024-10-31T00:00:00Z"
+        }
+    },
+    {
         "model": "scrum.epica",
         "pk": 1,
         "fields": {
@@ -468,9 +498,9 @@
     },
     {
         "model": "scrum.epica",
-        "pk": 2,
+        "pk": 3,
         "fields": {
-            "nombre": "Épica 2",
+            "nombre": "Épica 3",
             "descripcion": "Segunda funcionalidad del proyecto",
             "criterios_aceptacion": "Todos los casos de uso implementados",
             "estado": "POR_HACER",
@@ -627,69 +657,129 @@
         }
     },
     {
-        "model": "scrum.sprint",
-        "pk": 2,
+        "model": "scrum.tarea",
+        "pk": 24,
         "fields": {
-            "nombre": "Sprint 2",
-            "objetivo": "Completar la segunda funcionalidad",
-            "fecha_inicio": "2024-10-16",
-            "fecha_fin": "2024-10-31",
-            "velocidad": 30,
-            "scrum_master": 2,
-            "equipo_desarrollo": [3, 4, 5],
-            "fecha_creacion": "2024-10-16T00:00:00Z",
-            "fecha_actualizacion": "2024-10-16T00:00:00Z"
-        }
-    },
-    {
-        "model": "scrum.sprint",
-        "pk": 3,
-        "fields": {
-            "nombre": "Sprint 3",
-            "objetivo": "Completar la funcionalidad de exportación de usuarios",
-            "fecha_inicio": "2024-10-31",
-            "fecha_fin": "2024-11-15",
-            "velocidad": 30,
-            "scrum_master": 2,
-            "equipo_desarrollo": [4, 5, 6],
+            "titulo": "Tarea 24",
+            "descripcion": "Crear documentación para la funcionalidad de exportación",
+            "criterios_aceptacion": "La documentación es clara y completa",
+            "prioridad": 2,
+            "estado": "POR_HACER",
+            "esfuerzo_estimado": 3,
+            "responsable": 4,
+            "sprint_asignado": 3,
             "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z"
+            "fecha_actualizacion": "2024-10-31T00:00:00Z",
+            "dependencias": [],
+            "bloqueadores": ""
         }
     },
     {
-        "model": "auth.user",
-        "pk": 5,
+        "model": "scrum.tarea",
+        "pk": 25,
         "fields": {
-            "username": "developer3",
-            "first_name": "Sofia",
-            "last_name": "Martinez",
-            "email": "sofiamartinez@example.com",
-            "is_staff": true,
-            "is_superuser": false
+            "titulo": "Tarea 25",
+            "descripcion": "Crear documentación para la funcionalidad de exportación",
+            "criterios_aceptacion": "La documentación es clara y completa",
+            "prioridad": 2,
+            "estado": "POR_HACER",
+            "esfuerzo_estimado": 3,
+            "responsable": 4,
+            "sprint_asignado": 3,
+            "fecha_creacion": "2024-10-31T00:00:00Z",
+            "fecha_actualizacion": "2024-10-31T00:00:00Z",
+            "dependencias": [],
+            "bloqueadores": ""
         }
     },
     {
-        "model": "auth.user",
-        "pk": 6,
+        "model": "scrum.tarea",
+        "pk": 26,
         "fields": {
-            "username": "developer4",
-            "first_name": "Lucas",
-            "last_name": "Lopez",
-            "email": "lucaslopez@example.com",
-            "is_staff": true,
-            "is_superuser": false
+            "titulo": "Tarea 26",
+            "descripcion": "Crear documentación para la funcionalidad de exportación",
+            "criterios_aceptacion": "La documentación es clara y completa",
+            "prioridad": 2,
+            "estado": "POR_HACER",
+            "esfuerzo_estimado": 3,
+            "responsable": 4,
+            "sprint_asignado": 3,
+            "fecha_creacion": "2024-10-31T00:00:00Z",
+            "fecha_actualizacion": "2024-10-31T00:00:00Z",
+            "dependencias": [],
+            "bloqueadores": ""
         }
     },
     {
-        "model": "auth.user",
-        "pk": 7,
+        "model": "scrum.tarea",
+        "pk": 27,
         "fields": {
-            "username": "developer5",
-            "first_name": "Marta",
-            "last_name": "Gonzalez",
-            "email": "martagonzalez@example.com",
-            "is_staff": true,
-            "is_superuser": false
+            "titulo": "Tarea 27",
+            "descripcion": "Crear documentación para la funcionalidad de exportación",
+            "criterios_aceptacion": "La documentación es clara y completa",
+            "prioridad": 2,
+            "estado": "POR_HACER",
+            "esfuerzo_estimado": 3,
+            "responsable": 4,
+            "sprint_asignado": 3,
+            "fecha_creacion": "2024-10-31T00:00:00Z",
+            "fecha_actualizacion": "2024-10-31T00:00:00Z",
+            "dependencias": [],
+            "bloqueadores": ""
+        }
+    },
+    {
+        "model": "scrum.tarea",
+        "pk": 28,
+        "fields": {
+            "titulo": "Tarea 28",
+            "descripcion": "Crear documentación para la funcionalidad de exportación",
+            "criterios_aceptacion": "La documentación es clara y completa",
+            "prioridad": 2,
+            "estado": "POR_HACER",
+            "esfuerzo_estimado": 3,
+            "responsable": 4,
+            "sprint_asignado": 3,
+            "fecha_creacion": "2024-10-31T00:00:00Z",
+            "fecha_actualizacion": "2024-10-31T00:00:00Z",
+            "dependencias": [],
+            "bloqueadores": ""
+        }
+    },
+    {
+        "model": "scrum.tarea",
+        "pk": 29,
+        "fields": {
+            "titulo": "Tarea 29",
+            "descripcion": "Crear documentación para la funcionalidad de exportación",
+            "criterios_aceptacion": "La documentación es clara y completa",
+            "prioridad": 2,
+            "estado": "POR_HACER",
+            "esfuerzo_estimado": 3,
+            "responsable": 4,
+            "sprint_asignado": 3,
+            "fecha_creacion": "2024-10-31T00:00:00Z",
+            "fecha_actualizacion": "2024-10-31T00:00:00Z",
+            "dependencias": [],
+            "bloqueadores": ""
+        }
+    },
+    {
+        "model": "scrum.tarea",
+        "pk": 30,
+        "fields": {
+            "titulo": "Tarea 30",
+            "descripcion": "Crear documentación para la funcionalidad de exportación",
+            "criterios_aceptacion": "La documentación es clara y completa",
+            "prioridad": 2,
+            "estado": "POR_HACER",
+            "esfuerzo_estimado": 3,
+            "responsable": 4,
+            "sprint_asignado": 3,
+            "fecha_creacion": "2024-10-31T00:00:00Z",
+            "fecha_actualizacion": "2024-10-31T00:00:00Z",
+            "dependencias": [],
+            "bloqueadores": ""
         }
     }
 ]
