@@ -4,10 +4,10 @@
       "pk": 1,
       "fields": {
         "username": "responsable1",
-        "first_name": "John",
-        "last_name": "Doe",
-        "email": "john.doe@example.com",
-        "is_staff": false,
+        "first_name": "Enrrique",
+        "last_name": "Bogarin",
+        "email": "eabogarin@udc.edu.ar",
+        "is_staff": true,
         "is_superuser": false
       }
     },
@@ -15,10 +15,10 @@
       "model": "auth.user",
       "pk": 2,
       "fields": {
-        "username": "scrum_master1",
-        "first_name": "Jane",
-        "last_name": "Smith",
-        "email": "jane.smith@example.com",
+        "username": "scrum_master",
+        "first_name": "Franco",
+        "last_name": "Palavecino",
+        "email": "fgpalavecino@udc.edu.ar",
         "is_staff": true,
         "is_superuser": false
       }
@@ -28,10 +28,10 @@
       "pk": 3,
       "fields": {
         "username": "developer1",
-        "first_name": "Alice",
-        "last_name": "Jones",
-        "email": "alice.jones@example.com",
-        "is_staff": false,
+        "first_name": "Nicolas",
+        "last_name": "Barrientos",
+        "email": "nmbarrientos@udc.edu.ar",
+        "is_staff": true,
         "is_superuser": false
       }
     },
@@ -43,7 +43,7 @@
         "first_name": "Bob",
         "last_name": "Brown",
         "email": "bob.brown@example.com",
-        "is_staff": false,
+        "is_staff": true,
         "is_superuser": false
       }
     },

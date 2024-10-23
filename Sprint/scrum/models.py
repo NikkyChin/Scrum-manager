@@ -59,6 +59,8 @@ class Epica(models.Model):
             models.CheckConstraint(check=models.Q(fecha_fin__gte=models.F('fecha_inicio')), name='fecha_fin_posterior_epica'),
             models.CheckConstraint(check=models.Q(estado__in=['POR_HACER', 'EN_PROGRESO', 'COMPLETADA']), name='estado_valido_epica'),
         ]
+    def __str__(self):
+        return self.nombre
 
 class Sprint(models.Model):
     nombre = models.CharField(max_length=200)
