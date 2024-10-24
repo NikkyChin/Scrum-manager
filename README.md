@@ -70,8 +70,4 @@ Esta es una aplicación de gestión de proyectos SCRUM, que permite la administr
 
 
    python manage.py shell
-  
-- **Tareas**: Puedes ver, agregar, editar y eliminar tareas.
-- **Sprints**: Puedes ver los sprints disponibles y sus detalles.
-- **Épicas**: Puedes ver las épicas y sus descripciones.
 
