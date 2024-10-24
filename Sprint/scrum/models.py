@@ -79,3 +79,13 @@ class Sprint(models.Model):
             models.CheckConstraint(check=models.Q(fecha_fin__gte=models.F('fecha_inicio')), name='fecha_fin_posterior'),
             models.CheckConstraint(check=models.Q(velocidad__gte=0), name='velocidad_no_negativa'),
         ]
+
+class TareaHistorial(models.Model):
+    tarea = models.ForeignKey(Tarea, on_delete=models.CASCADE)
+    estado_anterior = models.CharField(max_length=20)
+    estado_nuevo = models.CharField(max_length=20)
+    fecha_cambio = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'Cambio de {self.estado_anterior} a {self.estado_nuevo} el {self.fecha_cambio}'
+    

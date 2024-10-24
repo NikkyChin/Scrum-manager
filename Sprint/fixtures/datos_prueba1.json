@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "username": "responsable1",
-            "first_name": "Enrique",
+            "first_name": "Enrrique",
             "last_name": "Bogarin",
             "email": "eabogarin@udc.edu.ar",
             "is_staff": true,
@@ -15,7 +15,7 @@
         "model": "auth.user",
         "pk": 2,
         "fields": {
-            "username": "scrum_master",
+            "username": "scrum_master1",
             "first_name": "Franco",
             "last_name": "Palavecino",
             "email": "fgpalavecino@udc.edu.ar",
@@ -53,8 +53,8 @@
         "fields": {
             "username": "developer3",
             "first_name": "Alice",
-            "last_name": "Johnson",
-            "email": "alice.johnson@example.com",
+            "last_name": "Smith",
+            "email": "alice.smith@example.com",
             "is_staff": true,
             "is_superuser": false
         }
@@ -63,10 +63,10 @@
         "model": "auth.user",
         "pk": 6,
         "fields": {
-            "username": "developer4",
-            "first_name": "Carlos",
-            "last_name": "Martinez",
-            "email": "carlos.martinez@example.com",
+            "username": "scrum_master2",
+            "first_name": "Laura",
+            "last_name": "Doe",
+            "email": "laura.doe@example.com",
             "is_staff": true,
             "is_superuser": false
         }
@@ -75,10 +75,10 @@
         "model": "auth.user",
         "pk": 7,
         "fields": {
-            "username": "developer5",
-            "first_name": "Laura",
-            "last_name": "Gonzalez",
-            "email": "laura.gonzalez@example.com",
+            "username": "developer4",
+            "first_name": "Michael",
+            "last_name": "Johnson",
+            "email": "michael.johnson@example.com",
             "is_staff": true,
             "is_superuser": false
         }
@@ -87,10 +87,10 @@
         "model": "auth.user",
         "pk": 8,
         "fields": {
-            "username": "developer6",
-            "first_name": "Jose",
-            "last_name": "Sanchez",
-            "email": "jose.sanchez@example.com",
+            "username": "responsable2",
+            "first_name": "David",
+            "last_name": "Williams",
+            "email": "david.williams@example.com",
             "is_staff": true,
             "is_superuser": false
         }
@@ -99,10 +99,10 @@
         "model": "auth.user",
         "pk": 9,
         "fields": {
-            "username": "developer7",
-            "first_name": "Maria",
-            "last_name": "Lopez",
-            "email": "maria.lopez@example.com",
+            "username": "scrum_master3",
+            "first_name": "Emma",
+            "last_name": "Davis",
+            "email": "emma.davis@example.com",
             "is_staff": true,
             "is_superuser": false
         }
@@ -111,10 +111,10 @@
         "model": "auth.user",
         "pk": 10,
         "fields": {
-            "username": "developer8",
-            "first_name": "Tom",
-            "last_name": "Smith",
-            "email": "tom.smith@example.com",
+            "username": "developer5",
+            "first_name": "John",
+            "last_name": "White",
+            "email": "john.white@example.com",
             "is_staff": true,
             "is_superuser": false
         }
@@ -139,12 +139,12 @@
         "pk": 2,
         "fields": {
             "nombre": "Sprint 2",
-            "objetivo": "Completar la segunda funcionalidad",
+            "objetivo": "Implementar la segunda funcionalidad",
             "fecha_inicio": "2024-10-16",
             "fecha_fin": "2024-10-30",
             "velocidad": 25,
-            "scrum_master": 2,
-            "equipo_desarrollo": [3, 4, 6],
+            "scrum_master": 6,
+            "equipo_desarrollo": [7, 10, 4],
             "fecha_creacion": "2024-10-16T00:00:00Z",
             "fecha_actualizacion": "2024-10-16T00:00:00Z"
         }
@@ -154,44 +154,14 @@
         "pk": 3,
         "fields": {
             "nombre": "Sprint 3",
-            "objetivo": "Completar la tercera funcionalidad",
-            "fecha_inicio": "2024-10-31",
+            "objetivo": "Finalizar la tercera funcionalidad",
+            "fecha_inicio": "2024-11-01",
             "fecha_fin": "2024-11-15",
-            "velocidad": 20,
-            "scrum_master": 2,
-            "equipo_desarrollo": [4, 5, 7],
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z"
-        }
-    },
-    {
-        "model": "scrum.sprint",
-        "pk": 4,
-        "fields": {
-            "nombre": "Sprint 4",
-            "objetivo": "Completar la segunda funcionalidad",
-            "fecha_inicio": "2024-10-16",
-            "fecha_fin": "2024-10-31",
-            "velocidad": 30,
-            "scrum_master": 2,
-            "equipo_desarrollo": [3, 4, 5],
-            "fecha_creacion": "2024-10-16T00:00:00Z",
-            "fecha_actualizacion": "2024-10-16T00:00:00Z"
-        }
-    },
-    {
-        "model": "scrum.sprint",
-        "pk": 5,
-        "fields": {
-            "nombre": "Sprint 5",
-            "objetivo": "Completar la funcionalidad de exportación de usuarios",
-            "fecha_inicio": "2024-10-31",
-            "fecha_fin": "2024-11-15",
-            "velocidad": 30,
-            "scrum_master": 2,
-            "equipo_desarrollo": [4, 5, 6],
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z"
+            "velocidad": 35,
+            "scrum_master": 9,
+            "equipo_desarrollo": [5, 3, 8],
+            "fecha_creacion": "2024-11-01T00:00:00Z",
+            "fecha_actualizacion": "2024-11-01T00:00:00Z"
         }
     },
     {
@@ -216,12 +186,12 @@
         "fields": {
             "nombre": "Épica 2",
             "descripcion": "Segunda funcionalidad del proyecto",
-            "criterios_aceptacion": "La funcionalidad es usable",
+            "criterios_aceptacion": "Integración con la funcionalidad anterior",
             "estado": "POR_HACER",
-            "responsable": 1,
+            "responsable": 8,
             "esfuerzo_estimado_total": 30,
             "fecha_inicio": "2024-10-16",
-            "fecha_fin": "2024-11-30",
+            "fecha_fin": "2024-11-15",
             "progreso": 0.0,
             "dependencias": [1]
         }
@@ -267,16 +237,16 @@
         "pk": 3,
         "fields": {
             "titulo": "Tarea 3",
-            "descripcion": "Implementar la funcionalidad de recuperación de contraseña",
-            "criterios_aceptacion": "El usuario puede recuperar su contraseña",
+            "descripcion": "Mejorar la interfaz de usuario",
+            "criterios_aceptacion": "La interfaz es funcional y amigable",
             "prioridad": 3,
             "estado": "POR_HACER",
             "esfuerzo_estimado": 4,
-            "responsable": 3,
+            "responsable": 5,
             "sprint_asignado": 1,
-            "fecha_creacion": "2024-10-02T00:00:00Z",
-            "fecha_actualizacion": "2024-10-02T00:00:00Z",
-            "dependencias": [2],
+            "fecha_creacion": "2024-10-01T00:00:00Z",
+            "fecha_actualizacion": "2024-10-01T00:00:00Z",
+            "dependencias": [],
             "bloqueadores": ""
         }
     },
@@ -285,16 +255,16 @@
         "pk": 4,
         "fields": {
             "titulo": "Tarea 4",
-            "descripcion": "Crear la base de datos para usuarios",
-            "criterios_aceptacion": "La base de datos se crea correctamente",
-            "prioridad": 2,
+            "descripcion": "Configurar la base de datos",
+            "criterios_aceptacion": "La base de datos está correctamente configurada",
+            "prioridad": 1,
             "estado": "EN_PROGRESO",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 1,
-            "fecha_creacion": "2024-10-01T00:00:00Z",
-            "fecha_actualizacion": "2024-10-01T00:00:00Z",
-            "dependencias": [],
+            "esfuerzo_estimado": 5,
+            "responsable": 7,
+            "sprint_asignado": 2,
+            "fecha_creacion": "2024-10-16T00:00:00Z",
+            "fecha_actualizacion": "2024-10-18T00:00:00Z",
+            "dependencias": [1],
             "bloqueadores": ""
         }
     },
@@ -303,16 +273,16 @@
         "pk": 5,
         "fields": {
             "titulo": "Tarea 5",
-            "descripcion": "Desarrollar el front-end para inicio de sesión",
-            "criterios_aceptacion": "El front-end es funcional",
-            "prioridad": 1,
+            "descripcion": "Desarrollar la API",
+            "criterios_aceptacion": "La API es funcional y está documentada",
+            "prioridad": 2,
             "estado": "POR_HACER",
-            "esfuerzo_estimado": 5,
-            "responsable": 5,
-            "sprint_asignado": 1,
-            "fecha_creacion": "2024-10-01T00:00:00Z",
-            "fecha_actualizacion": "2024-10-01T00:00:00Z",
-            "dependencias": [1],
+            "esfuerzo_estimado": 6,
+            "responsable": 10,
+            "sprint_asignado": 2,
+            "fecha_creacion": "2024-10-16T00:00:00Z",
+            "fecha_actualizacion": "2024-10-16T00:00:00Z",
+            "dependencias": [4],
             "bloqueadores": ""
         }
     },
@@ -321,465 +291,37 @@
         "pk": 6,
         "fields": {
             "titulo": "Tarea 6",
-            "descripcion": "Implementar la funcionalidad de edición de perfil",
-            "criterios_aceptacion": "El usuario puede editar su perfil",
-            "prioridad": 1,
+            "descripcion": "Diseñar el flujo de autenticación",
+            "criterios_aceptacion": "El flujo de autenticación es seguro",
+            "prioridad": 3,
             "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 6,
-            "sprint_asignado": 2,
-            "fecha_creacion": "2024-10-16T00:00:00Z",
-            "fecha_actualizacion": "2024-10-16T00:00:00Z",
+            "esfuerzo_estimado": 4,
+            "responsable": 3,
+            "sprint_asignado": 1,
+            "fecha_creacion": "2024-10-01T00:00:00Z",
+            "fecha_actualizacion": "2024-10-01T00:00:00Z",
             "dependencias": [1],
             "bloqueadores": ""
         }
     },
     {
-        "model": "scrum.tarea",
-        "pk": 7,
+        "model": "scrum.tareahistorial",
+        "pk": 1,
         "fields": {
-            "titulo": "Tarea 7",
-            "descripcion": "Crear la interfaz de usuario para edición de perfil",
-            "criterios_aceptacion": "La interfaz es funcional",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 4,
-            "responsable": 7,
-            "sprint_asignado": 2,
-            "fecha_creacion": "2024-10-16T00:00:00Z",
-            "fecha_actualizacion": "2024-10-16T00:00:00Z",
-            "dependencias": [6],
-            "bloqueadores": ""
+            "tarea": 1,
+            "estado_anterior": "POR_HACER",
+            "estado_nuevo": "EN_PROGRESO",
+            "fecha_cambio": "2024-10-05T00:00:00Z"
         }
     },
     {
-        "model": "scrum.tarea",
-        "pk": 8,
+        "model": "scrum.tareahistorial",
+        "pk": 2,
         "fields": {
-            "titulo": "Tarea 8",
-            "descripcion": "Implementar la funcionalidad de cierre de sesión",
-            "criterios_aceptacion": "El usuario puede cerrar sesión correctamente",
-            "prioridad": 3,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 2,
-            "responsable": 3,
-            "sprint_asignado": 2,
-            "fecha_creacion": "2024-10-16T00:00:00Z",
-            "fecha_actualizacion": "2024-10-16T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 9,
-        "fields": {
-            "titulo": "Tarea 9",
-            "descripcion": "Realizar pruebas de funcionalidad de inicio de sesión",
-            "criterios_aceptacion": "Las pruebas son satisfactorias",
-            "prioridad": 1,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 5,
-            "sprint_asignado": 2,
-            "fecha_creacion": "2024-10-16T00:00:00Z",
-            "fecha_actualizacion": "2024-10-16T00:00:00Z",
-            "dependencias": [5],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 10,
-        "fields": {
-            "titulo": "Tarea 10",
-            "descripcion": "Implementar la funcionalidad de restablecimiento de contraseña",
-            "criterios_aceptacion": "El usuario puede restablecer su contraseña",
-            "prioridad": 3,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 4,
-            "responsable": 6,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 11,
-        "fields": {
-            "titulo": "Tarea 11",
-            "descripcion": "Crear API para gestión de usuarios",
-            "criterios_aceptacion": "API funcional para usuarios",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 5,
-            "responsable": 7,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [10],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 12,
-        "fields": {
-            "titulo": "Tarea 12",
-            "descripcion": "Realizar pruebas del API de usuarios",
-            "criterios_aceptacion": "Las pruebas del API son satisfactorias",
-            "prioridad": 1,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 5,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [11],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 13,
-        "fields": {
-            "titulo": "Tarea 13",
-            "descripcion": "Implementar la funcionalidad de edición de usuario",
-            "criterios_aceptacion": "El usuario puede editar su información",
-            "prioridad": 1,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [10],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 14,
-        "fields": {
-            "titulo": "Tarea 14",
-            "descripcion": "Crear documentación para API de usuarios",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 4,
-            "responsable": 6,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [11],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 15,
-        "fields": {
-            "titulo": "Tarea 15",
-            "descripcion": "Implementar pruebas de regresión para usuarios",
-            "criterios_aceptacion": "Las pruebas son satisfactorias",
-            "prioridad": 1,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 7,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.epica",
-        "pk": 3,
-        "fields": {
-            "nombre": "Épica 3",
-            "descripcion": "Segunda funcionalidad del proyecto",
-            "criterios_aceptacion": "Todos los casos de uso implementados",
-            "estado": "POR_HACER",
-            "responsable": 1,
-            "esfuerzo_estimado_total": 40,
-            "fecha_inicio": "2024-10-01",
-            "fecha_fin": "2024-11-01",
-            "progreso": 0.0,
-            "dependencias": []
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 16,
-        "fields": {
-            "titulo": "Tarea 16",
-            "descripcion": "Implementar la funcionalidad de búsqueda de usuarios",
-            "criterios_aceptacion": "La búsqueda es funcional",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 4,
-            "responsable": 3,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 17,
-        "fields": {
-            "titulo": "Tarea 17",
-            "descripcion": "Implementar la funcionalidad de filtrado de usuarios",
-            "criterios_aceptacion": "El filtrado es funcional",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 18,
-        "fields": {
-            "titulo": "Tarea 18",
-            "descripcion": "Implementar la funcionalidad de listado de usuarios",
-            "criterios_aceptacion": "El listado es funcional",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 4,
-            "responsable": 6,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 19,
-        "fields": {
-            "titulo": "Tarea 19",
-            "descripcion": "Crear pruebas unitarias para la funcionalidad de búsqueda",
-            "criterios_aceptacion": "Las pruebas son satisfactorias",
-            "prioridad": 3,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 7,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [16],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 20,
-        "fields": {
-            "titulo": "Tarea 20",
-            "descripcion": "Crear documentación para la funcionalidad de búsqueda",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 4,
-            "responsable": 5,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [19],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 21,
-        "fields": {
-            "titulo": "Tarea 21",
-            "descripcion": "Implementar la funcionalidad de exportación de usuarios",
-            "criterios_aceptacion": "La exportación es funcional",
-            "prioridad": 1,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 5,
-            "responsable": 6,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 22,
-        "fields": {
-            "titulo": "Tarea 22",
-            "descripcion": "Implementar pruebas de integración para la funcionalidad de exportación",
-            "criterios_aceptacion": "Las pruebas son satisfactorias",
-            "prioridad": 1,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 4,
-            "responsable": 7,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 23,
-        "fields": {
-            "titulo": "Tarea 23",
-            "descripcion": "Crear documentación para la funcionalidad de exportación",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 24,
-        "fields": {
-            "titulo": "Tarea 24",
-            "descripcion": "Crear documentación para la funcionalidad de exportación",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 25,
-        "fields": {
-            "titulo": "Tarea 25",
-            "descripcion": "Crear documentación para la funcionalidad de exportación",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 26,
-        "fields": {
-            "titulo": "Tarea 26",
-            "descripcion": "Crear documentación para la funcionalidad de exportación",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 27,
-        "fields": {
-            "titulo": "Tarea 27",
-            "descripcion": "Crear documentación para la funcionalidad de exportación",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 28,
-        "fields": {
-            "titulo": "Tarea 28",
-            "descripcion": "Crear documentación para la funcionalidad de exportación",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 29,
-        "fields": {
-            "titulo": "Tarea 29",
-            "descripcion": "Crear documentación para la funcionalidad de exportación",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
-        }
-    },
-    {
-        "model": "scrum.tarea",
-        "pk": 30,
-        "fields": {
-            "titulo": "Tarea 30",
-            "descripcion": "Crear documentación para la funcionalidad de exportación",
-            "criterios_aceptacion": "La documentación es clara y completa",
-            "prioridad": 2,
-            "estado": "POR_HACER",
-            "esfuerzo_estimado": 3,
-            "responsable": 4,
-            "sprint_asignado": 3,
-            "fecha_creacion": "2024-10-31T00:00:00Z",
-            "fecha_actualizacion": "2024-10-31T00:00:00Z",
-            "dependencias": [],
-            "bloqueadores": ""
+            "tarea": 4,
+            "estado_anterior": "POR_HACER",
+            "estado_nuevo": "EN_PROGRESO",
+            "fecha_cambio": "2024-10-18T00:00:00Z"
         }
     }
 ]
