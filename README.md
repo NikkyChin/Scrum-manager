@@ -4,25 +4,15 @@ Esta es una aplicación de gestión de proyectos SCRUM, que permite la administr
 
 ## Contenido
 
-- [Características](#características)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
 
-## Características
-
-- Gestión de usuarios (responsables, Scrum Masters y miembros del equipo).
-- Creación y seguimiento de tareas distribuidas en diferentes sprints y épicas.
-- Visualización de tareas, sprints y épicas en listas.
-- Sistema de autenticación básico (sin autenticación de usuarios por el momento).
   
 ## Tecnologías Utilizadas
 
 - [Django](https://www.djangoproject.com/) - Framework web.
 - [SQLite](https://www.sqlite.org/index.html) - Base de datos ligera utilizada para el desarrollo.
-- [HTML/CSS](https://developer.mozilla.org/es/docs/Web) - Para el diseño y estilo de la interfaz de usuario.
 
 ## Instalación
 
@@ -76,17 +66,11 @@ Esta es una aplicación de gestión de proyectos SCRUM, que permite la administr
    python manage.py loaddata fixtures/datos_prueba.json
 
 
-8. **Ejecuta el servidor de desarrollo:**
+8. **Ejecuta el shell para consultas:**
 
 
-   python manage.py runserver
+   python manage.py shell
   
-
-9. **Accede a la aplicación:**
-
-   Abre tu navegador y visita [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
-
-## Uso
 
 - **Página de Inicio**: Muestra un panel de control con enlaces a las secciones de tareas, sprints y épicas.
 - **Tareas**: Puedes ver, agregar, editar y eliminar tareas.
