@@ -52,13 +52,19 @@ Esta es una aplicación de gestión de proyectos SCRUM, que permite la administr
    pip install -r requirements.txt
 
 
-6. **Aplica las migraciones:**
+6. **Crear las migraciones:**
+
+
+   python manage.py makemigrations scrum
+
+
+7. **Aplica las migraciones:**
 
 
    python manage.py migrate
 
 
-7. **Crea datos de prueba (opcional):**
+8. **Crea datos de prueba (opcional):**
 
    Puedes crear un conjunto de datos de prueba ejecutando el siguiente comando:
 
@@ -66,7 +72,7 @@ Esta es una aplicación de gestión de proyectos SCRUM, que permite la administr
    python manage.py loaddata fixtures/datos_prueba.json
 
 
-8. **Ejecuta el shell para consultas:**
+9. **Ejecuta el shell para consultas:**
 
 
    python manage.py shell
