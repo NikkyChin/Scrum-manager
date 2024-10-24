@@ -77,3 +77,6 @@ Esta es una aplicación de gestión de proyectos SCRUM, que permite la administr
 
    python manage.py shell
 
+## Uso
+
+  Realizar consultas, modificaciones, creaciones o eliminacion de la base de datos atravez del ORM de Django
