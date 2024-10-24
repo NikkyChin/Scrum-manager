@@ -69,7 +69,7 @@ Esta es una aplicación de gestión de proyectos SCRUM, que permite la administr
    Puedes crear un conjunto de datos de prueba ejecutando el siguiente comando:
 
 
-   python manage.py loaddata fixtures/datos_prueba.json
+   python manage.py loaddata fixtures/datos_prueba1.json
 
 
 9. **Ejecuta el shell para consultas:**
