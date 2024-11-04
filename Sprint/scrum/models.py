@@ -26,6 +26,13 @@ class Tarea(models.Model):
     bloqueadores = models.TextField(blank=True, null=True)
 
     class Meta:
+        permissions = [
+            ("add_task", "Puede añadir tareas"),
+            ("change_task", "Puede cambiar tareas"),
+            ("delete_task", "Puede eliminar tareas"),
+        ]
+    #AGREGAR DESDE EL ADMINISTRADOR DE DJANGO LOS GRUPOS Y LOS PERMISOS 
+
         constraints = [
             models.CheckConstraint(check=models.Q(prioridad__gte=0), name='prioridad_no_negativa'),
             models.CheckConstraint(check=models.Q(esfuerzo_estimado__gte=0), name='esfuerzo_estimado_no_negativo'),
