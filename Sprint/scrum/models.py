@@ -27,9 +27,7 @@ class Tarea(models.Model):
 
     class Meta:
         permissions = [
-            ("add_task", "Puede añadir tareas"),
-            ("change_task", "Puede cambiar tareas"),
-            ("delete_task", "Puede eliminar tareas"),
+            ("listar_tareas", "Puede listar las tareas"),
         ]
     #AGREGAR DESDE EL ADMINISTRADOR DE DJANGO LOS GRUPOS Y LOS PERMISOS 
 

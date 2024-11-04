@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-LOGIN_REDIRECT_URL = 'base'  
+LOGIN_REDIRECT_URL = 'listar_tareas'  
 LOGOUT_REDIRECT_URL = 'login'
 
 

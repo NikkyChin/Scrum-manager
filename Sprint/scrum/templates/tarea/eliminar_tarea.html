@@ -1,0 +1,29 @@
+
+
+
+{% extends 'base.html' %}
+
+{% block title %} Eliminar Post{% endblock %}
+
+{% block header %}
+    Eliminar publicacion
+{% endblock %}
+
+{% block content %}
+
+<div class="confirm-delete-box">
+    <h2 class="delete-title">Confirmar Eliminación</h2>
+    
+    <p class="delete-message">¿Está seguro de que desea eliminar este post?</p>
+    
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-actions">
+            <button type="submit" class="btn-eliminar">Eliminar</button>
+            <a href="{% url 'listar_tareas' %}" class="btn-cancelar">Cancelar</a>
+        </div>
+    </form>
+</div>
+
+
+{% endblock %}
