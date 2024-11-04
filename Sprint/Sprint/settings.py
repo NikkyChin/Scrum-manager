@@ -56,11 +56,11 @@ TEMPLATES = [
     },
 ]
 
-LOGIN_REDIRECT_URL = 'base'  # Cambia 'home' por el nombre de tu página principal
-LOGOUT_REDIRECT_URL = 'login'  # Cambia 'login' por el nombre de la URL para iniciar sesión
+LOGIN_REDIRECT_URL = 'base'  
+LOGOUT_REDIRECT_URL = 'login'
 
 
-SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_COOKIE_AGE = 1200
 SESSION_COOKIE_SECURE = True

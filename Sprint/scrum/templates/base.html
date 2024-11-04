@@ -8,17 +8,22 @@
 <body>
     <header>
         <h1>Scrum Management App</h1>
-        <nav>
-            {% if user.is_authenticated %}
+        <nav style="display: flex; justify-content: space-between;">
+            <div>
                 <a href="{% url 'base' %}">Inicio</a>
-                <a href="{% url 'tareas' %}">Tareas</a>
-                <a href="{% url 'sprints' %}">Sprints</a>
-                <a href="{% url 'epicas' %}">Épicas</a>
-                <a href="{% url 'logout' %}">Cerrar Sesión</a>
-            {% else %}
-                <a href="{% url 'login' %}">Iniciar Sesión</a>
-            {% endif %}
-
+            </div>
+            <div>
+                {% if user.is_authenticated %}
+                    <span>Bienvenido, {{ user.username }}!</span>
+                    <form style="float: right;" method="post" action="{% url 'logout' %}">
+                        {% csrf_token %}
+                        <button class="boton-cerrar-sesion" type="submit">Cerrar Sesión</button>
+                    </form>
+                {% else %}
+                    <a href="{% url 'register' %}">Registrarse</a>
+                    <a href="{% url 'login' %}">Iniciar Sesión</a>
+                {% endif %}
+            </div>
         </nav>
     </header>
     <main>
